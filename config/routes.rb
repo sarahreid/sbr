@@ -1,4 +1,5 @@
 SarahBelleReid::Application.routes.draw do
+  root :to => redirect('/products/lecho-des-cloches')
 
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
