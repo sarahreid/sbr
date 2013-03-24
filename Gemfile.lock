@@ -1,7 +1,7 @@
 GIT
-  remote: git://github.com/ent-io/spree_fancy.git
+  remote: git://github.com/sarahreid/sbr-theme.git
   revision: 483980b137ad20e9b029845f5db0b1901c9d0589
-  branch: sarahbellereid
+  branch: master
   specs:
     spree_fancy (1.3.0)
       compass-rails

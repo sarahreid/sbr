@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Alexey Topolyanskiy"]
-  s.date = "2013-03-23"
+  s.date = "2013-03-24"
   s.description = "Fancy theme to apply to out of the box Spree so it looks a bit nicer. Use it as a starting point."
   s.email = "devilcoders@gmail.com"
   s.homepage = "http://www.spreecommerce.com"
