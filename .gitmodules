@@ -1,0 +1,3 @@
+[submodule "lib/sbr-theme"]
+	path = lib/sbr-theme
+	url = git@github.com:sarahreid/sbr-theme.git
