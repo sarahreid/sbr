@@ -9,7 +9,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
+group :staging, :production do
   gem 'mysql2', '~> 0.3.11'
   gem 'dalli',  '~> 2.6.2'
 

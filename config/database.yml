@@ -18,7 +18,7 @@ test:
   pool: 5
   timeout: 5000
 
-production:
+rds: &rds
   adapter: mysql2
   encoding: utf8
   database: <%= ENV['RDS_DB_NAME'] %>
@@ -28,3 +28,9 @@ production:
   port: <%= ENV['RDS_PORT'] %>
   charset: utf8
   collation: utf8_bin
+
+staging:
+  <<: *rds
+
+production:
+  <<: *rds
