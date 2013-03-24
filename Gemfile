@@ -12,6 +12,9 @@ end
 group :production do
   gem 'mysql2', '~> 0.3.11'
   gem 'dalli',  '~> 2.6.2'
+
+  # hack to prevent polyglot-0.3.3 from breaking `$ rails console`
+  gem 'minitest', '~> 4.7.0'
 end
 
 
